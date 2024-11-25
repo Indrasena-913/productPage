@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.indu {
+		background-color: aqua;
+		padding: 10px;
+		border-radius: 5px;
+	}
+
+	@media (width>600px) {
+		.search {
+			margin-left: 1470px;
+		}
+		.cart-img {
+			margin-left: 40px;
+		}
+		button {
+			margin-left: 40px;
+		}
+		.logo-name {
+			margin-left: 20px;
+		}
+	}
+}
